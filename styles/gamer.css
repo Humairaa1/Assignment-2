@@ -208,8 +208,9 @@
 .play-instantly-section {
     display: flex;
     max-height: 700px;
-    width: 90%;
-    margin: 50px auto;
+    padding: 0 100px;
+    /* width: 90%; */
+    margin: 50px 0;
     justify-content: space-between;
 }
 
