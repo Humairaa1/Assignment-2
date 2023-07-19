@@ -25,6 +25,19 @@
     border-radius: 45px;
 }
 
+.section-heading {
+    color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.linear-color {
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
 /* shared styles section end here  */
 
 /* nav section style start here  */
@@ -91,7 +104,8 @@
 .sign-in-container {
     display: flex;
 }
-.sign-in-section-container{
+
+.sign-in-section-container {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -118,24 +132,27 @@
     margin-top: 0;
     margin-bottom: 20px;
 }
-.list{
+
+.list {
     margin-bottom: 20px;
 }
+
 .list li {
     color: #534C64;
     font-size: 1.2rem;
     font-weight: 500;
     list-style: none;
 }
-.skyblue-btn{
-    background-color:#4EC5F7;
+
+.skyblue-btn {
+    background-color: #4EC5F7;
     color: #FFF;
     font-size: 1.2rem;
     font-weight: 600;
     border: none;
     padding: 15px 35px;
     border-radius: 45px;
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 .img-section {
@@ -147,3 +164,73 @@
 }
 
 /* sign in section styles End here  */
+
+/*  online game section styles starts here  */
+
+.online-game-section {
+    text-align: center;
+}
+
+.section-heading {
+    margin-bottom: 0;
+}
+
+
+.titles {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.all-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.single-card {
+    width: 250px;
+    text-align: start;
+}
+
+.single-card img {
+    width: 100%;
+}
+
+/*  online game section Ends starts here  */
+
+/* play-instantly-section styles starts here  */
+
+.play-instantly-section {
+    display: flex;
+    max-height: 750px;
+    width: 90%;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.play-instantly-container{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-instantly-img{
+    width: 60%;
+}
+.play-instantly-img .first-img {
+    width: 550px;
+    height: 580px;
+    margin-left: 130px;
+}
+
+.second-img {
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 240px;
+    margin: 0;
+}
+
+/* play-instantly-section styles starts here  */
