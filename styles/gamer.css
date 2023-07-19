@@ -15,6 +15,18 @@
     color: #F948B2;
 }
 
+.pink-btn {
+    background-color: #F948B2;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 45px;
+}
+
+/* shared styles section end here  */
+
 /* nav section style start here  */
 .nav-section {
     background: #FFF;
@@ -67,7 +79,8 @@
     border: none;
     padding: 5px 0 0 5px;
 }
-.fa-brands{
+
+.fa-brands {
     width: 33px;
     height: 24px;
 }
@@ -75,19 +88,62 @@
 /* nav section style End here  */
 
 /* sign in section styles starts here  */
-.sign-in-container{
+.sign-in-container {
     display: flex;
 }
-.sign-in-section{
+.sign-in-section-container{
     width: 50%;
-    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url('../images/Group\ 14.png');
     background-size: cover;
+    margin-right: 50px;
 }
-.img-section{
+
+.play-like {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.goat {
+    font-size: 4.5rem;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom, #F948B2, #8758F1);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.list{
+    margin-bottom: 20px;
+}
+.list li {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    list-style: none;
+}
+.skyblue-btn{
+    background-color:#4EC5F7;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 45px;
+    margin-left: 20px; 
+}
+
+.img-section {
     width: 50%;
-    border: 1px solid red;
 }
-.img-section img{
+
+.img-section img {
     width: 80%;
 }
+
+/* sign in section styles End here  */
