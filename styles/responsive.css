@@ -1,6 +1,8 @@
+/* responsive for large device  */
 @media screen and (max-width:450px) {
     .nav-container,
-    .menu-part
+    .menu-part,
+    .sign-in-container 
     {
         flex-direction: column;
     }
@@ -9,11 +11,23 @@
     }
     .menu-bar{
         margin-bottom: 20px;
+    }
+    .sign-in-container{
+        flex-direction: column-reverse;
+    }
+    .sign-in-section-container{
+        width: 100%;
+    }
+    .img-section{
+        width: 100%;
     }
 }
+
+/* responsive for medium device  */
 @media screen and (min-width:451px) and (max-width:770px) {
     .nav-container,
-    .menu-part
+    .menu-part,
+    .sign-in-container
     {
         flex-direction: column;
     }
@@ -22,5 +36,14 @@
     }
     .menu-bar{
         margin-bottom: 20px;
+    }
+    .sign-in-container{
+        flex-direction: column-reverse;
+    }
+    .sign-in-section-container{
+        width: 100%;
+    }
+    .img-section{
+        width: 100%;
     }
 }
